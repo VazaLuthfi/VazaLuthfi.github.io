@@ -1,0 +1,36 @@
+.menu{
+    display:inline-flex;
+    margin:50px;
+}
+
+.menu ul li{
+    list-style:none;
+    height:20px;
+    margin:0px 5px;
+    color:rgb(255, 0, 0);
+    float: left;
+}
+
+
+
+ul li{
+    list-style:none;
+    height:20px;
+    margin:0px 5px;
+    color:white
+    }
+
+h2{
+        list-style:none;
+        height:20px;
+        margin:0px 5px;
+        color:rgb(250, 250, 250);
+}
+
+footer{
+    
+        list-style:none;
+        height:20px;
+        margin:0px 5px;
+        color:rgb(250, 250, 250);
+}

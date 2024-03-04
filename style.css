@@ -1,0 +1,82 @@
+/**header bar style**/
+header {
+    text-align: center;
+   padding: 10px;
+   
+ }
+ /** navigation menu style **/
+ nav {
+    text-align: center;
+    word-spacing: 30px;
+    Padding: 10px;
+    color: #7ee0f1;
+   text-decoration: none;
+   font-size: larger;
+    
+ }
+ /**creating the two-column layout**/
+ *{
+    box-sizing: border-box;
+ }
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .post-text-box {
+    flex: 70%;
+    padding: 20px;
+ }
+ .profile {
+    flex: 70%;
+    padding: 20px;
+ }
+ /**profile image and heading style**/
+ .profile img {
+    width: 120px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+ }
+ .profile h1 {
+    text-align: center;
+ }
+
+ /*
+ 1.Background Color (Solid, Gradient)
+ 2.Background Image
+ 3.Background Repeat
+ 4.Background Positiom
+*/
+
+body {
+   background: rgb(0,0,0);
+   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(102,81,81,0.44861694677871145) 69%, rgba(255,255,255,1) 100%);
+}
+
+
+.body{
+   text-align: center;
+   font-size: 55px;
+   list-style:none;
+   height:100px;
+   margin-top:350px;
+   text-shadow: 2px 2px red;
+   color:white
+}
+
+.span{
+   color: black;
+   font-size: 55px;
+   margin-top: 350px;
+   height:100px;
+   text-shadow: 2px 2px gold
+}
+
+.a {
+   padding: 8px 16px;
+   border-radius: 4px;
+   color: white;
+   background-color: #ca1414;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+ }

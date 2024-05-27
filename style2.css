@@ -1,0 +1,14 @@
+.body {
+    background-color: black;
+}
+
+.resource {
+    border-radius: 50%;
+  }
+  
+  .h3 {
+    color: rgb(255, 254, 254);
+    font-size: 75px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+  }
